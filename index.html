@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="jp">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="LUMIERE 東京都の表参道、渋谷、恵比寿、代官山にある美容院の紹介サイトです。Webで予約できます。"
+    />
+    <title>LUMIERE</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/img/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
+    <link rel="shortcut icon" href="assets/img/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/img/apple-touch-icon.png"
+    />
+
+    <link rel="stylesheet" href="assets/css/destyle.min.css" media="all" />
+    <link rel="stylesheet" href="assets/css/style.css" media="all" />
+    <link rel="stylesheet" href="assets/css/swiper.min.css" media="all" />
+  </head>
+
+  <body id="top">
+    <header class="header_block">
+      <div class="header_inner">
+        <h1 id="headerLogo" class="header_logo">
+          <a href="#top">
+            <img
+              src="assets/img/logo_black.png"
+              alt="LUMIERE"
+              width="248"
+              height="35"
+            />
+          </a>
+        </h1>
+        <nav id="js_headerNav" class="header_nav">
+          <ul>
+            <li><a href="#style">style</a></li>
+            <li><a href="#menu">menu</a></li>
+            <li><a href="#staff">staff</a></li>
+            <li><a href="#access">access</a></li>
+            <li><a href="#reserve">reserve</a></li>
+          </ul>
+          <div class="header_links">
+            <a class="btn_reserve_white" href="#reserve">web reserve</a>
+            <a class="btn_coupon" href="#menu">coupon</a>
+          </div>
+          <!-- header_links -->
+        </nav>
+        <!-- header_nav -->
+
+        <button id="js_hamburgerBtn" class="hamburger_menu">
+          <span class="hamburger_text">menu</span>
+          <span class="hamburger_bar1"></span>
+          <span class="hamburger_bar2"></span>
+        </button>
+      </div>
+      <!-- header_inner -->
+    </header>
+    <!-- header_block -->
+
+    <div id="js_hamburgerBg" class="hamburger_bg"></div>
+
+    <main>
+      <section class="fv_block">
+        <div class="fv_links">
+          <a class="btn_reserve_black" href="#">web reserve</a>
+          <a class="btn_menu" href="#menu">menu & price</a>
+          <a class="scroll_down" href="#style">
+            <span>scroll down</span>
+            <img
+              src="assets/img/img_arrow_down.png"
+              loading="lazy"
+              alt=""
+              width="20"
+              height="20"
+            />
+          </a>
+        </div>
+        <!-- fv_links -->
+      </section>
+      <!-- fv_block -->
+
+      <section id="style" class="style_block">
+        <h2 class="section_title">
+          style<span>LUMIEREの生み出すヘアスタイル</span>
+        </h2>
+        <!-- section_title -->
+
+        <div class="style_swiper_wrap">
+          <div class="swiper-button">
+            <div class="swiper-button-prev">
+              <img
+                src="assets/img/arrow_left.svg"
+                loading="lazy"
+                alt=""
+                width="21"
+                height="15"
+              />
+            </div>
+            <div class="swiper-button-next">
+              <img
+                src="assets/img/arrow_right.svg"
+                loading="lazy"
+                alt=""
+                width="21"
+                height="15"
+              />
+            </div>
+          </div>
+          <!-- swiper-button -->
+
+          <div class="swiper styleSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide style_card">
+                <p class="style_name"><span>short bob cut</span></p>
+                <!-- style_name -->
+                <img
+                  src="assets/img/style_01.png"
+                  loading="lazy"
+                  alt="short bob cut"
+                  width="300"
+                  height="400"
+                />
+              </div>
+              <!-- style_card -->
+
+              <div class="swiper-slide style_card">
+                <p class="style_name"><span>medium wavy hair</span></p>
+                <!-- style_name -->
+                <img
+                  src="assets/img/style_02.png"
+                  loading="lazy"
+                  alt="medium wavy hair"
+                  width="300"
+                  height="400"
+                />
+              </div>
+              <!-- style_card -->
+
+              <div class="swiper-slide style_card">
+                <p class="style_name"><span>long straight hair</span></p>
+                <!-- style_name -->
+                <img
+                  src="assets/img/style_03.png"
+                  loading="lazy"
+                  alt="long straight hair"
+                  width="300"
+                  height="400"
+                />
+              </div>
+              <!-- style_card -->
+
+              <div class="swiper-slide style_card">
+                <p class="style_name"><span>perm style</span></p>
+                <!-- style_name -->
+                <img
+                  src="assets/img/style_04.png"
+                  loading="lazy"
+                  alt="perm style"
+                  width="300"
+                  height="400"
+                />
+              </div>
+              <!-- style_card -->
+
+              <div class="swiper-slide style_card">
+                <p class="style_name"><span>layer cut</span></p>
+                <!-- style_name -->
+                <img
+                  src="assets/img/style_05.png"
+                  loading="lazy"
+                  alt="layer cut"
+                  width="300"
+                  height="400"
+                />
+              </div>
+              <!-- style_card -->
+            </div>
+            <!-- swiper-wrapper -->
+          </div>
+          <!-- styleSwiper -->
+        </div>
+        <!-- style_swiper_wrap -->
+      </section>
+      <!-- style_block -->
+
+      <section id="menu" class="menu_block">
+        <h2 class="section_title">menu<span>メニュー・料金</span></h2>
+        <!-- section_title -->
+        <dl class="menu_list">
+          <div class="menu_card">
+            <dt>カット<span>hair cut</span></dt>
+            <dd>¥5,500</dd>
+          </div>
+          <div class="menu_card">
+            <dt>カラー<span>color</span></dt>
+            <dd>¥8,800</dd>
+          </div>
+          <div class="menu_card">
+            <dt>髪質改善トリートメント<span>treatment</span></dt>
+            <dd>¥12,000</dd>
+          </div>
+          <div class="menu_card">
+            <dt>パーマ・縮毛矯正<span>perm / straight</span></dt>
+            <dd>¥15,000</dd>
+          </div>
+        </dl>
+        <!-- menu_list -->
+      </section>
+      <!-- menu_block -->
+
+      <section id="staff" class="staff_block">
+        <h2 class="section_title">staff<span>スタッフ紹介</span></h2>
+        <!-- section_title -->
+        <ul class="staff_list">
+          <li class="staff_card">
+            <div class="staff_img">
+              <img
+                src="assets/img/staff_01.png"
+                loading="lazy"
+                alt="yuko tanaka"
+                width="300"
+                height="400"
+              />
+            </div>
+            <p class="post">マネージャー/店長</p>
+            <p class="name_jp">田中 優子</p>
+            <p class="name_en">yuko tanaka</p>
+          </li>
+          <li class="staff_card">
+            <div class="staff_img">
+              <img
+                src="assets/img/staff_02.png"
+                loading="lazy"
+                alt="kenta suzuki"
+                width="300"
+                height="400"
+              />
+            </div>
+            <p class="post">スタイリスト</p>
+            <p class="name_jp">鈴木 健太</p>
+            <p class="name_en">kenta suzuki</p>
+          </li>
+          <li class="staff_card">
+            <div class="staff_img">
+              <img
+                src="assets/img/staff_03.png"
+                loading="lazy"
+                alt="sakura yamamoto"
+                width="300"
+                height="400"
+              />
+            </div>
+            <p class="post">スタイリスト</p>
+            <p class="name_jp">山本 さくら</p>
+            <p class="name_en">sakura yamamoto</p>
+          </li>
+        </ul>
+        <!-- staff_list -->
+      </section>
+      <!-- staff_block -->
+
+      <section id="access" class="access_block">
+        <h2 class="section_title">access<span>店舗情報・アクセス</span></h2>
+        <!-- section_title -->
+        <ul class="access_list">
+          <li class="access_card">
+            <p class="access_name">omotesando</p>
+            <div class="access_img">
+              <img
+                src="assets/img/img_omotesando.png"
+                loading="lazy"
+                alt="omotesando"
+                width="550"
+                height="330"
+              />
+              <span>
+                lumiere<br />
+                omotesando
+              </span>
+            </div>
+            <!-- access_img -->
+            <p class="address">東京都渋谷区神宮前5-10-1 1F</p>
+            <p class="tel">Tel. 03-1234-5678</p>
+          </li>
+          <li class="access_card">
+            <p class="access_name">shibuya</p>
+            <div class="access_img">
+              <img
+                src="assets/img/img_shibuya.png"
+                loading="lazy"
+                alt="shibuya"
+                width="550"
+                height="330"
+              />
+              <span>
+                lumiere<br />
+                shibuya
+              </span>
+            </div>
+            <!-- access_img -->
+            <p class="address">東京都渋谷区宇田川町15-2 3F</p>
+            <p class="tel">Tel. 03-2345-6789</p>
+          </li>
+          <li class="access_card">
+            <p class="access_name">ebisu</p>
+            <div class="access_img">
+              <img
+                src="assets/img/img_ebisu.png"
+                loading="lazy"
+                alt="ebisu"
+                width="550"
+                height="330"
+              />
+              <span>
+                lumiere<br />
+                ebisu
+              </span>
+            </div>
+            <!-- access_img -->
+            <p class="address">東京都渋谷区恵比寿西1-8-5 1F</p>
+            <p class="tel">Tel. 03-3456-7890</p>
+          </li>
+          <li class="access_card">
+            <p class="access_name">daikanyama</p>
+            <div class="access_img">
+              <img
+                src="assets/img/img_daikanyama.png"
+                loading="lazy"
+                alt="daikanyama"
+                width="550"
+                height="330"
+              />
+              <span>
+                lumiere<br />
+                daikanyama
+              </span>
+            </div>
+            <!-- access_img -->
+            <p class="address">東京都渋谷区猿楽町20-11 1F</p>
+            <p class="tel">Tel. 03-5678-9012</p>
+          </li>
+        </ul>
+        <!-- access_list -->
+      </section>
+      <!-- access_block -->
+
+      <section id="reserve" class="reserve_block">
+        <h2 class="section_title">reserve<span>ご予約はこちら</span></h2>
+        <!-- section_title -->
+        <p>
+          お電話・WEBからご予約いただけます。<br />
+          初めてのご来店もお気軽にどうぞ。
+        </p>
+
+        <div class="reserve_links">
+          <a class="btn_reserve_white" href="#">web reserve</a>
+          <a class="btn_coupon" href="#">coupon</a>
+        </div>
+        <!-- reserve_links -->
+      </section>
+      <!-- reserve_block -->
+    </main>
+
+    <footer class="footer_block">
+      <a class="scroll_top" href="#top">
+        <img
+          src="assets/img/img_arrow_up.png"
+          loading="lazy"
+          alt=""
+          width="20"
+          height="20"
+        />
+        <span>page top</span>
+      </a>
+      <div class="footer_header">
+        <p class="footer_logo">
+          <img
+            src="assets/img/logo_white.png"
+            loading="lazy"
+            alt="LUMIERE"
+            width="248"
+            height="35"
+          />
+        </p>
+        <!-- footer_logo -->
+
+        <nav class="footer_nav">
+          <ul>
+            <li><a href="#style">style</a></li>
+            <li><a href="#menu">menu</a></li>
+            <li><a href="#staff">staff</a></li>
+            <li><a href="#access">access</a></li>
+            <li><a href="#reserve">reserve</a></li>
+          </ul>
+        </nav>
+        <!-- footer_nav -->
+      </div>
+      <!-- footer_header -->
+      <div class="footer_body">
+        <a class="instagram" href="#">
+          <img
+            src="assets/img/img_instagram.png"
+            loading="lazy"
+            alt=""
+            width="20"
+            height="20"
+          />
+          Instagram
+        </a>
+        <!-- instagram -->
+        <ul class="footer_salon_list">
+          <li class="salon_list_title">hair salon</li>
+          <li>表参道店</li>
+          <li>渋谷店</li>
+          <li>恵比寿店</li>
+          <li>代官山店</li>
+        </ul>
+        <!-- footer_salon_list -->
+      </div>
+      <!-- footer_body -->
+      <p class="footer_copy">
+        <small>©2025 LUMIERE</small>
+      </p>
+      <!-- footer_copy -->
+    </footer>
+    <!-- footer_block -->
+
+    <script
+      type="text/javascript"
+      src="assets/js/swiper-bundle.min.js"
+    ></script>
+    <script type="text/javascript" src="assets/js/style.js"></script>
+
+    <script>
+      // swiper
+      const swiper = new Swiper(".styleSwiper", {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+          1: {
+            slidesPerView: 2.3,
+            spaceBetween: 20,
+          },
+          769: {
+            slidesPerView: 3.2,
+            spaceBetween: 24,
+          },
+          993: {
+            slidesPerView: 3.3,
+            spaceBetween: 30,
+          },
+          1201: {
+            slidesPerView: 4.3,
+            spaceBetween: 40,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
